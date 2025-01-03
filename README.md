@@ -21,6 +21,8 @@ A tool for injecting shellcode into target processes on Windows for testing.
 
 ## TECHNICAL DETAILS
 
+![image](https://raw.githubusercontent.com/nffdev/Shellcode-Injector/refs/heads/main/shellcode-injector.png)
+
 - **OpenProcess**: Opens the target process with `PROCESS_ALL_ACCESS` to enable memory manipulation and thread creation.
 - **VirtualAllocEx**: Allocates memory within the target process to store the shellcode.
 - **WriteProcessMemory**: Writes the shellcode into the allocated memory space in the target process.
